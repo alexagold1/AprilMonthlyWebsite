@@ -5,7 +5,7 @@ document.querySelector(".cover").addEventListener("click", function () {
     if (coverstate == 1) {
       document
         .querySelector(".cover")
-        .setAttribute("style", "background:url(imgs/cover2.jpg);");
+        .setAttribute("style", "background:url(imgs/Window.jpg);");
       coverstate = 2;
     } else {
       document

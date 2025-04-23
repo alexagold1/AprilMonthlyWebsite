@@ -1,6 +1,6 @@
 body {
   font-family: "Poppin", sans-serif;
-  background-color: #2e3537;
+  background-image: linear-gradient(to bottom right, #042b5e, #294ba8);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@ input {
   width: 100%;
   height: 100%;
   border-radius: 0 15px 15px 0;
-  box-shadow: 0 0 5px rgb(41, 41, 41);
+  box-shadow: 0 0 5px rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,7 +106,7 @@ input {
   z-index: 1;
 }
 #checkbox-cover:checked ~ .book .page {
-  box-shadow: 0 0 3px rgb(99, 98, 98);
+  box-shadow: 0 0 3px rgb(255, 255, 255);
 }
 #checkbox-page1:checked ~ .book #page1 {
   transform: rotateY(-180deg);
@@ -115,4 +115,35 @@ input {
 #checkbox-page2:checked ~ .book #page2 {
   transform: rotateY(-180deg);
   z-index: 3;
+}
+h5 {
+  font-family: "sporty-pro", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.chapter {
+  text-align: center;
+  position: absolute;
+  padding-bottom: 650px;
+  color: white;
+  font-family: "sporty-pro", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+p {
+  font-family: "gelica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+h6 {
+  font-family: "sporty-pro", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+}
+.link {
+  position: absolute;
+  padding-bottom: 600px;
+  color: white;
+  margin-top: 70px;
 }
