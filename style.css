@@ -87,6 +87,7 @@ input {
 }
 .prev {
   left: 1em;
+  color: white;
 }
 #page1 {
   z-index: 3;
@@ -146,4 +147,15 @@ h6 {
   padding-bottom: 600px;
   color: white;
   margin-top: 70px;
+}
+.iterator-container {
+  font-size: 1.5rem;
+  color: white;
+}
+#iterator-display {
+  font-weight: bold;
+  font-family: "gelica", sans-serif;
+  text-align: center;
+  margin-right: -150px;
+  padding-top: 600px;
 }
